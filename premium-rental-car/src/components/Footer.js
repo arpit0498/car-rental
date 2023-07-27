@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FooterM() {
+export default function Footer() {
     return (
         <div className="promo">
             <div className="title">
