@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "../styles/bookRide.css"
 export default function BookRide() {
     const [rent, setRent] = useState(false);
     const handleSubmit = (e) => {

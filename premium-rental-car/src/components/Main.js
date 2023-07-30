@@ -19,7 +19,7 @@ import avatar3 from "../images/avatar3.png";
 import avatar4 from "../images/avatar4.png";
 import audi from "../images/audi.png";
 
-
+import "../styles/mainPage.css"
 
 export default function Main() {
     const [desc1, setDesc1] = useState(false);

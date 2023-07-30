@@ -8,6 +8,8 @@ import lamborgini from "../images/lamborgini.png";
 import mclaren from "../images/mclaren.png";
 import rollsroyce from "../images/rollsroyce.png";
 
+import "../styles/carChoose.css"
+import "../styles/carChoose.css"
 export default function Vehicles() {
     const [name, setName] = useState({
         model: "Lamborgini",

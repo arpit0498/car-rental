@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../images/logo.png";
 import hamburger from "../images/hamburger_menu.png";
-
+import "../styles/navbar.css"
 export default function Navbar() {
     return (
         <div className="navbar-container">
@@ -18,9 +18,9 @@ export default function Navbar() {
             </div>
             <button className="btn login">Log in</button>
             <button className="btn register">Register</button>
-            {/* <div className="mobile">
+            <div className="mobile">
                 <img src={hamburger} alt="mobile menu" />
-            </div> */}
+            </div>
             <div className="btns"></div>
         </div>
     );
